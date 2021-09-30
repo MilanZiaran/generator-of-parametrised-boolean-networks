@@ -1,0 +1,25 @@
+{
+	"number of networks": 1,
+	"vertices": 50,
+	"seed": 20210,
+	"prob of act reg": 0.8,
+	"uninterpreted function arity": {
+		"lower bound": 2,
+		"upper bound": "rand"
+	},
+	"generator": {
+		"Barabasi-Albert": {
+			"use": false,
+			"connections": 2
+		},
+		"Watts-Strogatz": {
+			"use": true,
+			"connections": 2,
+			"rewire probability": 0.5
+		},
+		"Random Network": {
+			"use": false,
+			"connection probability": 0.5
+		}
+	}
+}
